@@ -1,10 +1,10 @@
 # Crownforge
 
-[Play Crownforge 0.13](https://joeypshell.github.io/crownforge-play/?v=0.13.0)
+[Play Crownforge 0.14](https://joeypshell.github.io/crownforge-play/?v=0.14.0)
 
 A chess roguelike about building powerful pieces through random upgrade offers.
 
-Version 0.13 eases the opening while keeping the smarter enemies. Encounter two introduces a knight alongside pawns, with fewer walls and its king available immediately. Encounter three introduces a bishop; pawns start farther back and the king arrives after phase three. Rooks first appear in encounter four, with authored queens and hybrids from encounter five. Pawn promotion can still create an earlier queen. Random offers and slow upgrade progression remain intact.
+Version 0.14 delays enemy knights until encounter five, including reinforcements and stacked movement. The first two encounters use pawn defenders; encounter three introduces a bishop, and encounter four introduces a rook. Encounter two keeps fewer walls and its king available immediately. Authored queens and hybrids appear from encounter five; pawn promotion can still create an earlier queen. Your starting piece remains a knight. Random offers and slow upgrade progression remain intact.
 
 Enemies check your next legal captures before choosing a move. They prefer to preserve their pieces and avoid exposing other defenders, including threats from movement grafts and Skewer. Capturing your Crown and preventing immediate king loss take priority; favorable trades and forced sacrifices remain possible. Upgrade-effect chains and extra-move combinations can still outplay them.
 
