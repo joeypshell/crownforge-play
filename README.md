@@ -1,16 +1,16 @@
 # Crownforge
 
-[Play Crownforge 0.8](https://joeypshell.github.io/crownforge-play/?v=0.8.0)
+[Play Crownforge 0.9](https://joeypshell.github.io/crownforge-play/?v=0.9.0)
 
 A chess roguelike about building powerful pieces through random upgrade offers.
 
-Version 0.8 makes enemy kings **capturable as soon as they arrive**. A legal direct king capture ends the encounter, even with escorts alive or waves pending. Defenders block approaches and intercept attackers; kings seek safer legal squares. Gold escort diamonds confer no immunity. Take an early opening to win, or risk further captures for gold. Existing walls remain obstacles; conditional gates are not implemented.
+Version 0.9 gives the enemy army **one shared move or capture per phase**. One selected enemy acts while the others hold their positions. The forecast identifies that response and updates as you play. Kings hold their ground: they cannot retreat or take quiet moves, but can capture adjacent attackers using the army's one action.
 
-Kings may stay put. Each king commits to its announced hold or step for your current phase, giving you a chance to intercept it. Defenders react as you move. A newly blocked route can change the king's plan, and an available capture of your Crown always takes priority. Hover the king to inspect its plan.
+The opening king starts on E7 with pawn defenders on C6 and G6. Remove defenders or find a safe route around them; a pawn reinforces after phase three. A legal direct king capture ends the encounter even with enemies alive or waves pending. Gold escort diamonds confer no immunity. Take an early opening to win, or risk further captures for gold.
 
-Every friendly piece has **one required move per round**. Each friendly owns its basic move; non-king enemies also move when able. Completely blocked pieces may pass, and kings may hold position. Captures, including pawn captures, stay optional. There is no health: losing your crowned protagonist ends the run. A captured companion is permanently lost.
+Every friendly piece has **one required move per round**. Each friendly owns its basic move; completely blocked pieces may pass. Captures, including pawn captures, stay optional. There is no health: losing your crowned protagonist ends the run. A captured companion is permanently lost.
 
-Move each piece, inspect the live enemy forecast, and choose **End phase** when ready. Extra moves are optional and expire at commitment. Enemies wait even after your last command. **Undo (Z)** is available until you commit; **Space** ends the phase once all required moves are fulfilled. Hover destinations to preview captures, effects, and danger. Enemy forecasts account for earlier enemies opening or blocking paths.
+Move each piece, inspect the live enemy forecast, and choose **End phase** when ready. Extra moves are optional and expire at commitment. Enemies wait even after your last command. **Undo (Z)** is available until you commit; **Space** ends the phase once all required moves are fulfilled. Hover destinations to preview captures, effects, and danger. Idle defenders' potential capture coverage is distinct from the one selected enemy action.
 
 Start with one **Hold Draught**. It lets one unmoved friendly skip its required move once, without protection or combat effects. Carry up to two. Markets have a 35% chance to stock one for 3 gold, separate from the upgrade purchase; rerolls do not change potion stock. Draughts persist but never refill automatically. Undo restores a used draught before commitment.
 
