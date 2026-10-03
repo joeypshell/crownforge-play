@@ -1,10 +1,12 @@
 # Crownforge
 
-[Play Crownforge 0.11](https://joeypshell.github.io/crownforge-play/?v=0.11.0)
+[Play Crownforge 0.12](https://joeypshell.github.io/crownforge-play/?v=0.12.0)
 
 A chess roguelike about building powerful pieces through random upgrade offers.
 
-Version 0.11 fixes mobile swipe scrolling, gives each army one shared basic move, and adds optional encounter gold goals. Tap a piece and a destination, review the forecast, then press **Confirm**. Use **Type** to compare alternatives, **Details** for rules and abilities, and **Menu** for restart and speed. Swipe through the market even when starting over a purchase button; dragging cancels the button press. Portrait and landscape layouts adapt to the screen. Rotation preserves the run and shop choices while canceling an unconfirmed move. Desktop mouse controls remain available.
+Version 0.12 makes enemies check your next legal captures before choosing a move. They prefer to preserve their pieces and avoid exposing other defenders, including threats from movement grafts and Skewer. Capturing your Crown and preventing immediate king loss take priority; favorable trades and forced sacrifices remain possible. This is a direct-capture check, so upgrade-effect chains and extra-move combinations can still outplay them.
+
+Tap a piece and a destination, review the forecast, then press **Confirm**. Use **Type** to compare alternatives, **Details** for rules and abilities, and **Menu** for restart and speed. Swipe through the market even when starting over a purchase button; dragging cancels the button press. Portrait and landscape layouts adapt to the screen. Rotation preserves the run and shop choices while canceling an unconfirmed move. Desktop mouse controls remain available.
 
 The enemy army has **one shared move or capture per phase**. One selected enemy acts while the others hold their positions. The forecast identifies that response and updates as you play. Kings hold their ground: they cannot retreat or take quiet moves, but can capture adjacent attackers using the army's one action.
 
