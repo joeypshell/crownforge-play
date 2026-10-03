@@ -1,10 +1,12 @@
 # Crownforge
 
-[Play Crownforge 0.9](https://joeypshell.github.io/crownforge-play/?v=0.9.0)
+[Play Crownforge 0.10](https://joeypshell.github.io/crownforge-play/?v=0.10.0)
 
 A chess roguelike about building powerful pieces through random upgrade offers.
 
-Version 0.9 gives the enemy army **one shared move or capture per phase**. One selected enemy acts while the others hold their positions. The forecast identifies that response and updates as you play. Kings hold their ground: they cannot retreat or take quiet moves, but can capture adjacent attackers using the army's one action.
+Version 0.10 adds a responsive phone/tablet interface. Tap a piece and a destination, review the forecast, then press **Confirm**. Use **Type** to compare alternatives, **Details** for rules and abilities, and **Menu** for restart and speed. Portrait and landscape layouts adapt to the screen; the upgrade shop scrolls vertically. Rotation preserves the run and shop choices while canceling an unconfirmed move. Desktop mouse controls remain available.
+
+The enemy army has **one shared move or capture per phase**. One selected enemy acts while the others hold their positions. The forecast identifies that response and updates as you play. Kings hold their ground: they cannot retreat or take quiet moves, but can capture adjacent attackers using the army's one action.
 
 The opening king starts on E7 with pawn defenders on C6 and G6. Remove defenders or find a safe route around them; a pawn reinforces after phase three. A legal direct king capture ends the encounter even with enemies alive or waves pending. Gold escort diamonds confer no immunity. Take an early opening to win, or risk further captures for gold.
 
