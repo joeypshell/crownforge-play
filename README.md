@@ -1,18 +1,20 @@
 # Crownforge
 
-[Play Crownforge 0.6](https://joeypshell.github.io/crownforge-play/?v=0.6.0)
+[Play Crownforge 0.7](https://joeypshell.github.io/crownforge-play/?v=0.7.0)
 
 A chess roguelike about building powerful pieces through random upgrade offers.
 
-Version 0.6 starts you with **one shared command per phase**. There is no health: enemies capture with legal chess moves, and losing your crowned protagonist ends the run. A captured companion is permanently lost.
+Version 0.7 gives **every piece one required move per round**. Each friendly owns its basic move; enemies and kings also move when able. Completely blocked pieces may pass. Captures, including pawn captures, stay optional. There is no health: losing your crowned protagonist ends the run. A captured companion is permanently lost.
 
-Spend commands, inspect the live enemy forecast, and choose **End phase** when ready. Enemies wait even after your last command. **Undo (Z)** is available until you commit; **Space** ends the phase. Hover destinations to preview captures, effects, and danger.
+Move each piece, inspect the live enemy forecast, and choose **End phase** when ready. Extra moves are optional and expire at commitment. Enemies wait even after your last command. **Undo (Z)** is available until you commit; **Space** ends the phase once all required moves are fulfilled. Hover destinations to preview captures, effects, and danger. Enemy forecasts account for earlier enemies opening or blocking paths.
+
+Start with one **Hold Draught**. It lets one unmoved friendly skip its required move once, without protection or combat effects. Carry up to two. Markets have a 35% chance to stock one for 3 gold, separate from the upgrade purchase; rerolls do not change potion stock. Draughts persist but never refill automatically. Undo restores a used draught before commitment.
 
 Earn additional commands through Rhythm, Momentum, movement-only Footwork, or companion-only Handoff. Reserve Order supplies one manually activated full command per encounter. All sources share a two-bonus-per-phase limit.
 
 **Second Command** permanently adds a shared action each phase. It is a rare find from shop four, costs 18 gold, occupies two of the protagonist's four slots, and has an independent 8% chance per eligible market roll. Movement grafts remain limited to one per piece. Powerful chess grafts are also rare and late; Pawn Graft is a common 3-gold foundation.
 
-Six encounters feature slower reinforcement waves, pawn promotion races, and late hybrid enemies. Waves advance by enemy phases, never commands spent. Newly arriving and promoted enemies receive no immediate extra attack. Three random market offers, one purchase, and a limited paid reroll keep each build uncertain. Recruitment is optional, supports at most two pieces, and adds no commands.
+Six encounters feature slower reinforcement waves, pawn promotion races, and late hybrid enemies. Waves advance by enemy phases, never commands spent. Newly arriving and promoted enemies receive no immediate extra attack. Three random market offers, one purchase, and a limited paid reroll keep each build uncertain. Optional recruits appear from shop three, support at most two pieces, and bring their own required move.
 
 Combo Lab demonstrates a fully upgraded queen: jump D2 -> E4, then slide E4 -> H7 after the chain removes the guards.
 
