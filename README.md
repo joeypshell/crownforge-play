@@ -1,23 +1,21 @@
 # Crownforge
 
-Public browser build of Crownforge, a chess-inspired roguelike about stacking abilities on powerful pieces.
+[Play Crownforge 0.6](https://joeypshell.github.io/crownforge-play/?v=0.6.0)
 
-## Play
+A chess roguelike about building powerful pieces through random upgrade offers.
 
-[Play Crownforge](https://joeypshell.github.io/crownforge-play/)
+Version 0.6 starts you with **one shared command per phase**. There is no health: enemies capture with legal chess moves, and losing your crowned protagonist ends the run. A captured companion is permanently lost.
 
-Click to select a piece and move. Hover destinations to preview captures and effects. Space ends your phase. The Combo Lab demonstrates the complete queen build.
+Spend commands, inspect the live enemy forecast, and choose **End phase** when ready. Enemies wait even after your last command. **Undo (Z)** is available until you commit; **Space** ends the phase. Hover destinations to preview captures, effects, and danger.
 
-Version 0.5: each piece can carry only one movement graft. Common Pawn Graft costs 3 gold and adds modest forward movement and diagonal captures. Royal Step costs 8 and unlocks after encounter three. Rook, Bishop, and Knight Grafts cost 16/14/14, cannot appear before the market after encounter four, and share an 8% chance per eligible market roll to occupy one offer. A new graft must explicitly replace the old one.
+Earn additional commands through Rhythm, Momentum, movement-only Footwork, or companion-only Handoff. Reserve Order supplies one manually activated full command per encounter. All sources share a two-bonus-per-phase limit.
 
-Stop enemy pawns before they reach rank 1 and promote to queens. Gold warnings and move previews reveal promotion danger. Newly promoted queens announce their attacks for the next phase, giving you time to respond. Pawn Graft preserves your piece's base identity and does not grant promotion.
+**Second Command** permanently adds a shared action each phase. It is a rare find from shop four, costs 18 gold, occupies two of the protagonist's four slots, and has an independent 8% chance per eligible market roll. Movement grafts remain limited to one per piece. Powerful chess grafts are also rare and late; Pawn Graft is a common 3-gold foundation.
 
-Enemies move and attack with their normal chess geometry. Pawns attack only forward diagonals; rooks, bishops, queens, and knights follow their own shapes. Blocking an announced sliding route cancels its move. Later waves introduce marked Pawn + Rook, Bishop + Knight, Rook + Knight, and Queen + Knight stacks that combine only those movement and attack patterns.
+Six encounters feature slower reinforcement waves, pawn promotion races, and late hybrid enemies. Waves advance by enemy phases, never commands spent. Newly arriving and promoted enemies receive no immediate extra attack. Three random market offers, one purchase, and a limited paid reroll keep each build uncertain. Recruitment is optional, supports at most two pieces, and adds no commands.
 
-Six encounters feature announced reinforcement waves and a final boss. Start with a plain knight and build through three random market offers, one upgrade purchase per visit, and one paid reroll. Fourteen upgrades support movement, splashes, chains, defense, and extra actions. Recruit one optional companion; both pieces share two actions per phase.
+Combo Lab demonstrates a fully upgraded queen: jump D2 -> E4, then slide E4 -> H7 after the chain removes the guards.
 
-This is an early playable prototype with placeholder vector art, no audio, and no saved runs. Difficulty and upgrade pacing remain open to playtesting.
+Prototype: desktop mouse controls, procedural artwork, no audio, and no saved runs. Difficulty and progression are still being playtested. This public repository contains exported game files; source development is maintained separately.
 
-This repository contains the exported game for hosting. Source development is maintained separately.
-
-Made with Godot 4.7. See `LICENSE-GODOT.txt` for the engine license.
+Made with Godot 4.7. See `LICENSE-GODOT.txt`.
