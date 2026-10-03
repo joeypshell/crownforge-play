@@ -1,8 +1,8 @@
-# Crownforge — royal duel v0.16
+# Crownforge — moving crowns v0.17
 
-[Play Crownforge](https://joeypshell.github.io/crownforge-play/?v=0.16.0)
+[Play Crownforge](https://joeypshell.github.io/crownforge-play/?v=0.17.0)
 
-Start with **your King and one Knight**. Defend your King and capture the enemy King across three encounters. The enemy King stays put, but can capture adjacent pieces. Capturing it immediately wins even if defenders or future waves remain.
+Start with **your King and one Knight**. Defend your King and capture the enemy King across three encounters. The enemy King gets **two quiet one-square steps per encounter**, using its army's shared action. Its remaining steps appear on the board and in Details. Captures do not spend steps, and it can still capture adjacent pieces after both steps are used. Each encounter restores two steps. Capturing it immediately wins even if defenders or future waves remain.
 
 Each side shares one basic move per turn. Extra commands come from upgrades and consumables. Additional fighters appear as random reward or paid reinforcement cards, competing with equipment and army relics. Choose one free card from three after each of the first two wins; an optional paid market permits one separate purchase. Knight recruits are common, Bishops less likely from the second visit, and Rooks are reserved for later expansion. Maximum army: King and two fighters. Recruitment does not add another basic move.
 
