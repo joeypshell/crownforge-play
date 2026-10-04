@@ -1,6 +1,6 @@
-# Crownforge — moving crowns v0.17
+# Crownforge — Normal and Easy modes v0.18
 
-[Play Crownforge](https://joeypshell.github.io/crownforge-play/?v=0.17.0)
+[Play Crownforge](https://joeypshell.github.io/crownforge-play/?v=0.18.0)
 
 Start with **your King and one Knight**. Defend your King and capture the enemy King across three encounters. The enemy King gets **two quiet one-square steps per encounter**, using its army's shared action. Its remaining steps appear on the board and in Details. Captures do not spend steps, and it can still capture adjacent pieces after both steps are used. Each encounter restores two steps. Capturing it immediately wins even if defenders or future waves remain.
 
@@ -10,7 +10,9 @@ Captures are permanent. Losing your King **or your last fighter** ends the run. 
 
 Enemy movement follows chess geometry; Pawns move forward, capture diagonally, and can promote. Defenders prioritize their King and avoid immediately giving away pieces when safe alternatives exist. This is a heuristic and can be outplayed by upgrades and extra commands. No enemy Knights appear in this short trial.
 
-On mobile, tap a piece and a destination, then **Confirm**. Swipe vertically through reward cards; dragging cancels purchase taps. Use **Details** for rules and **Menu** to restart. Desktop supports click moves and hover forecasts. **End Phase** explicitly commits the shown response, and **Undo** works until commitment or encounter clear.
+**Normal** is the default: the enemy's next actor, destination, arrows, and exact capture/survival forecasts are hidden. Possible chess attacks, current King step counters, scheduled waves, and your own move/combo previews remain visible. **Easy** shows the complete enemy response. Change modes with the desktop control or **Menu** on mobile without restarting or spending an action. The setting carries through restarts, rewards, and rotation within the session. Enemy AI and combat rules are identical in both modes.
+
+On mobile, tap a piece and a destination, then **Confirm**. Swipe vertically through reward cards; dragging cancels purchase taps. Use **Details** for rules and **Menu** to restart or change modes. Desktop supports click moves and hover previews. **End Phase** explicitly commits the enemy response, and **Undo** works until commitment or encounter clear.
 
 Start with one Hold Draught to skip your required move once without protection. Markets sometimes stock another for 3 gold. Major movement grafts and Second Command stay rare and expensive from shop four, outside this trial. The separate Combo Lab demonstrates late build potential.
 
