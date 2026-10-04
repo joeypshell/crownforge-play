@@ -1,21 +1,27 @@
-# Crownforge — Normal and Easy modes v0.18
+# Crownforge — Tactics and army builds v0.19
 
-[Play Crownforge](https://joeypshell.github.io/crownforge-play/?v=0.18.0)
+[Play Crownforge](https://joeypshell.github.io/crownforge-play/?v=0.19.0)
 
-Start with **your King and one Knight**. Defend your King and capture the enemy King across three encounters. The enemy King gets **two quiet one-square steps per encounter**, using its army's shared action. Its remaining steps appear on the board and in Details. Captures do not spend steps, and it can still capture adjacent pieces after both steps are used. Each encounter restores two steps. Capturing it immediately wins even if defenders or future waves remain.
+Build a tactics deck and an army across eight encounters. Start with your King and one Knight; capture the enemy King while protecting yours.
 
-Each side shares one basic move per turn. Extra commands come from upgrades and consumables. Additional fighters appear as random reward or paid reinforcement cards, competing with equipment and army relics. Choose one free card from three after each of the first two wins; an optional paid market permits one separate purchase. Knight recruits are common, Bishops less likely from the second visit, and Rooks are reserved for later expansion. Maximum army: King and two fighters. Recruitment does not add another basic move.
+Each side shares one basic chess move per turn. Draw three tactics and play at most one alongside that move. Ordinary movement works regardless of your hand. Recurring cards reshuffle; powerful movement and extra-command cards exhaust until the next encounter.
 
-Captures are permanent. Losing your King **or your last fighter** ends the run. If you have two fighters, losing one lets you continue, but its equipment and kill progress are gone. Each ordinary capture earns 1 gold, enemy King capture earns 4, and the visible Hold Formation objective adds 2 if your starting escorts survive. Equipment and relics persist only within the run.
+After each of the first seven wins, choose one free random reward from three eligible offers, or skip. Cards, equipment, relics and recruits compete for the same choice. The optional paid market permits one purchase and one reroll. A forge lets you upgrade one deck card for 4 gold or remove one for 3, keeping at least six cards and at most two copies of each tactic.
 
-Enemy movement follows chess geometry; Pawns move forward, capture diagonally, and can promote. Defenders prioritize their King and avoid immediately giving away pieces when safe alternatives exist. This is a heuristic and can be outplayed by upgrades and extra commands. No enemy Knights appear in this short trial.
+Choose Standard or Elite for the next court. Elite adds an escort and pays +2 clear gold. Each encounter has one visible optional goal: preserve starting escorts, capture a specified number of ordinary enemies, or take the King within a turn deadline. Capturing the King always wins immediately.
 
-**Normal** is the default: the enemy's next actor, destination, arrows, and exact capture/survival forecasts are hidden. Possible chess attacks, current King step counters, scheduled waves, and your own move/combo previews remain visible. **Easy** shows the complete enemy response. Change modes with the desktop control or **Menu** on mobile without restarting or spending an action. The setting carries through restarts, rewards, and rotation within the session. Enemy AI and combat rules are identical in both modes.
+Build combinations through cavalry strikes, coordinated fighters, or capture income. Lance Order extends equipped Spur; Capture Spark with equipped Spark adds diagonal targets. Later rare grafts and Volley allow larger attacks. Major grafts remain expensive and gated from reward four. Enemy Knights first appear in encounter five.
 
-On mobile, tap a piece and a destination, then **Confirm**. Swipe vertically through reward cards; dragging cancels purchase taps. Use **Details** for rules and **Menu** to restart or change modes. Desktop supports click moves and hover previews. **End Phase** explicitly commits the enemy response, and **Undo** works until commitment or encounter clear.
+Captures are permanent. Losing your King or your last fighter ends the run. With two fighters, losing one lets you continue, but its personal equipment is gone. The shared deck and army relics survive companion losses. Maximum army: King and two fighters.
 
-Start with one Hold Draught to skip your required move once without protection. Markets sometimes stock another for 3 gold. Major movement grafts and Second Command stay rare and expensive from shop four, outside this trial. The separate Combo Lab demonstrates late build potential.
+Both Kings use adjacent chess movement. The enemy King gets two quiet steps per encounter, sharing its army action; adjacent captures remain available afterward. Pawns advance, capture diagonally, and promote to Queens. Rays and explosions cannot capture Kings or allies.
 
-Prototype limits: three encounters, no saved runs, no audio, procedural art. This public repository contains exported assets; development source is maintained separately. Published `version.json` identifies the tested source commit. Desktop, touch, rules, random progression, and complete earned-progression runs are tested.
+Normal hides planned enemy moves while showing possible attack geometry. Easy reveals the exact response. Change modes with the desktop control or mobile Menu; both use identical rules and AI.
 
-Made with Godot 4.7. See `LICENSE-GODOT.txt`.
+On mobile, tap a destination and Confirm. Open Tactics to choose a card and its target. Swipe through hand, deck and rewards; dragging cancels accidental purchases. Desktop shows tactics below the board. End Phase explicitly commits the enemy response. Undo restores uncommitted moves, cards and shuffle state.
+
+This prototype has no saved runs, audio, or permanent account progression yet. Automated checks cover rules, deck lifecycle, combinations, random rewards, eight-encounter earned-progression runs, and desktop/mobile interaction. Recorded solvability routes use exact forecasts and are not estimates of human difficulty.
+
+This public repository contains exported assets. Development source is maintained separately; version.json identifies the tested source commit.
+
+Made with Godot 4.7. See LICENSE-GODOT.txt.
